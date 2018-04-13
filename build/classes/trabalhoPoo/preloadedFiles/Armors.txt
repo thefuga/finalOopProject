@@ -1,0 +1,7 @@
+5;1;1;Old rags
+15;1;3;Cardboard armor
+50;2;6;Cloth armor
+150;6;8;Leather armor
+500;10;15;Steel armor
+1000;15;25;Dragon armor
+2500;20;50;Ultimate armor

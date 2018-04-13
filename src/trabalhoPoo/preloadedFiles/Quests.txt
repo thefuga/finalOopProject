@@ -1,0 +1,5 @@
+Complete the training;Defeat 10 training dolls;10;1;10;10
+Pigs everywhere;Defeat 10 normal pigs;20;1;10;25
+Battle pigs;Defeat 15 elder pigs;50;2;15;50
+Pig chief;Defeat the pig boss;50;3;1;80
+A dreadful boar appeared;Defeat the battle boar;120;3;1;150

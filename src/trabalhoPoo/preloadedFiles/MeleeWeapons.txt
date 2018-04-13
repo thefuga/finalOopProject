@@ -1,0 +1,7 @@
+1;1;1;Log of wood
+50;2;10;Wood sword
+120;5;25;Pork chop
+150;8;30;Steel sword
+300;10;50;Diamond sword
+750;15;100;Dragon sword
+1500;20;5000;Ultimate sword

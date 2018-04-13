@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="524.0" prefWidth="429.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="trabalhoPoo.view.InsideDungeonScreenController">
+   <children>
+      <TitledPane fx:id="targetTitledPane" animated="false" collapsible="false" layoutX="65.0" layoutY="14.0" prefHeight="147.0" prefWidth="299.0" text="Target">
+         <content>
+            <Group>
+               <children>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="297.0">
+                     <children>
+                        <ProgressBar fx:id="healthBar" layoutX="83.0" layoutY="9.0" maxHeight="18.0" maxWidth="200.0" minHeight="18.0" minWidth="200.0" prefHeight="18.0" prefWidth="200.0" progress="0.0" />
+                        <ProgressBar fx:id="energyBar" layoutX="83.0" layoutY="43.0" maxHeight="18.0" maxWidth="200.0" minHeight="18.0" minWidth="200.0" prefHeight="18.0" prefWidth="200.0" progress="0.0" />
+                        <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="14.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true" />
+                        <Button layoutX="83.0" layoutY="70.0" maxHeight="25.0" maxWidth="98.0" minHeight="25.0" minWidth="98.0" mnemonicParsing="false" onAction="#attackButton" prefHeight="25.0" prefWidth="98.0" text="Attack!">
+                           <font>
+                              <Font name="Baskerville Old Face" size="12.0" />
+                           </font>
+                        </Button>
+                        <Label layoutX="165.0" layoutY="10.0" text="Health">
+                           <font>
+                              <Font name="Baskerville Old Face" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="165.0" layoutY="44.0" text="Energy">
+                           <font>
+                              <Font name="Baskerville Old Face" size="13.0" />
+                           </font>
+                        </Label>
+                        <Button layoutX="185.0" layoutY="70.0" maxHeight="25.0" maxWidth="98.0" minHeight="25.0" minWidth="98.0" mnemonicParsing="false" onAction="#specialAttackButton" prefHeight="25.0" prefWidth="98.0" text="Special Attack!">
+                           <font>
+                              <Font name="Baskerville Old Face" size="12.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </Group>
+         </content>
+         <font>
+            <Font name="Old English Text MT" size="20.0" />
+         </font>
+      </TitledPane>
+      <TitledPane collapsible="false" layoutX="65.0" layoutY="172.0" prefHeight="292.0" prefWidth="299.0" text="Enemies">
+         <content>
+            <ListView fx:id="enemiesList" prefHeight="200.0" prefWidth="200.0" />
+         </content>
+         <font>
+            <Font name="Old English Text MT" size="20.0" />
+         </font>
+      </TitledPane>
+      <Button layoutX="65.0" layoutY="474.0" maxHeight="38.0" maxWidth="299.0" minHeight="25.0" minWidth="130.0" mnemonicParsing="false" onAction="#exitButton" prefHeight="38.0" prefWidth="299.0" text="Exit">
+         <font>
+            <Font name="Baskerville Old Face" size="23.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="509.0" prefWidth="661.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="trabalhoPoo.view.QuestsController">
+   <children>
+      <TitledPane collapsible="false" layoutX="14.0" layoutY="12.0" prefHeight="220.0" prefWidth="299.0" text="Active Quests">
+         <content>
+            <ListView fx:id="activeQuestsList" prefHeight="200.0" prefWidth="200.0" />
+         </content>
+         <font>
+            <Font name="Old English Text MT" size="20.0" />
+         </font>
+      </TitledPane>
+      <TitledPane collapsible="false" layoutX="14.0" layoutY="252.0" prefHeight="220.0" prefWidth="299.0" text="Completed Quests">
+         <content>
+            <ListView fx:id="completedQuestsList" prefHeight="200.0" prefWidth="200.0" />
+         </content>
+         <font>
+            <Font name="Old English Text MT" size="20.0" />
+         </font>
+      </TitledPane>
+      <TitledPane collapsible="false" layoutX="331.0" layoutY="12.0" prefHeight="460.0" prefWidth="299.0" text="Quest Description">
+         <font>
+            <Font name="Old English Text MT" size="20.0" />
+         </font>
+         <content>
+            <AnchorPane maxHeight="439.0" maxWidth="310.0" minHeight="439.0" minWidth="310.0" prefHeight="439.0" prefWidth="310.0">
+               <children>
+                  <Label fx:id="questTitle" layoutX="26.0" layoutY="45.0">
+                     <font>
+                        <Font name="Old English Text MT" size="20.0" />
+                     </font>
+                  </Label>
+                  <TextArea fx:id="questDescription" editable="false" layoutX="26.0" layoutY="100.0" prefHeight="266.0" prefWidth="252.0">
+                     <font>
+                        <Font name="Baskerville Old Face" size="14.0" />
+                     </font>
+                  </TextArea>
+                  <Label fx:id="questObjective" layoutX="26.0" layoutY="391.0">
+                     <font>
+                        <Font name="Baskerville Old Face" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </content>
+      </TitledPane>
+   </children>
+</AnchorPane>

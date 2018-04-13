@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="97.0" prefWidth="372.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="trabalhoPoo.view.SelectedItemScreenController">
+   <children>
+      <Label fx:id="itemName" layoutX="14.0" layoutY="14.0">
+         <font>
+            <Font name="Old English Text MT" size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="label3" layoutX="15.0" layoutY="125.0" text=" ">
+         <font>
+            <Font name="Baskerville Old Face" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="label5" layoutX="15.0" layoutY="161.0" text=" ">
+         <font>
+            <Font name="Baskerville Old Face" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="label4" layoutX="15.0" layoutY="143.0" text=" ">
+         <font>
+            <Font name="Baskerville Old Face" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="label2" layoutX="15.0" layoutY="107.0" text=" ">
+         <font>
+            <Font name="Baskerville Old Face" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="label1" layoutX="15.0" layoutY="87.0" text=" ">
+         <font>
+            <Font name="Baskerville Old Face" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

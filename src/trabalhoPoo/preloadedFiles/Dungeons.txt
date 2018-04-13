@@ -1,0 +1,6 @@
+Treiner camp for beguinners;A place where you can training your skills.;1
+Pig farm;A place where there is a lot of fat pigs,but be careful they become aggressive in the procreation time.;3
+Underground tunnels;Tunnels under the city where a lot of monsters are hidding;5
+Plains of virtue;Extensive plains dominated by groups of monsters;7
+Cemitery of fear;A place wrapped in darkness, where hordes of undeads rest;8
+Catacombs;A place where many treasures are hidden but they are guarded by powerfull monsters;10

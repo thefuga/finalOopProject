@@ -1,0 +1,9 @@
+1;1;1;0;Blob of life
+10;2;25;0;Small heal potion
+25;5;50;0;Medium heal potion
+50;10;100;0;Large heal potion
+10;2;0;25;Small energy potion
+25;5;0;50;Medium energy potion
+50;10;0;100;Large energy potion
+100;15;200;200;Elixir
+200;20;500;500;Maximun elixir

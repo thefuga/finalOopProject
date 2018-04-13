@@ -1,0 +1,6 @@
+10;1;5;Sling
+100;3;25;Normal bow
+150;5;35;Elite bow
+350;10;80;Cross-bow
+400;15;110;Musket
+5000;20;500;M16

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="524.0" prefWidth="429.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="trabalhoPoo.view.VendorSelectedScreenController">
+   <children>
+      <TitledPane collapsible="false" layoutX="65.0" layoutY="172.0" prefHeight="295.0" prefWidth="299.0" text="Goods">
+         <font>
+            <Font name="Old English Text MT" size="20.0" />
+         </font>
+         <content>
+            <ListView fx:id="goodsList" prefHeight="200.0" prefWidth="200.0" />
+         </content>
+      </TitledPane>
+      <TitledPane fx:id="vendorTitledPane" animated="false" collapsible="false" layoutX="65.0" layoutY="14.0" prefHeight="147.0" prefWidth="299.0" text="Vendor">
+         <content>
+            <Group>
+               <children>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="297.0">
+                     <children>
+                        <ProgressBar fx:id="healthBar" layoutX="83.0" layoutY="9.0" maxHeight="18.0" maxWidth="200.0" minHeight="18.0" minWidth="200.0" prefHeight="18.0" prefWidth="200.0" progress="0.0" />
+                        <ProgressBar fx:id="energyBar" layoutX="83.0" layoutY="43.0" maxHeight="18.0" maxWidth="200.0" minHeight="18.0" minWidth="200.0" prefHeight="18.0" prefWidth="200.0" progress="0.0" />
+                        <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="14.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true" />
+                        <Button layoutX="14.0" layoutY="71.0" maxHeight="25.0" maxWidth="130.0" minHeight="25.0" minWidth="130.0" mnemonicParsing="false" onAction="#buyButton" prefHeight="25.0" prefWidth="130.0" text="I wanna buy something">
+                           <font>
+                              <Font name="Baskerville Old Face" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="153.0" layoutY="71.0" maxHeight="25.0" maxWidth="130.0" minHeight="25.0" minWidth="130.0" mnemonicParsing="false" onAction="#viewItemButton" prefHeight="25.0" prefWidth="130.0" text="View item">
+                           <font>
+                              <Font name="Baskerville Old Face" size="12.0" />
+                           </font>
+                        </Button>
+                        <Label layoutX="165.0" layoutY="10.0" text="Health">
+                           <font>
+                              <Font name="Baskerville Old Face" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="165.0" layoutY="44.0" text="Energy">
+                           <font>
+                              <Font name="Baskerville Old Face" size="13.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </Group>
+         </content>
+         <font>
+            <Font name="Old English Text MT" size="20.0" />
+         </font>
+      </TitledPane>
+      <Button layoutX="65.0" layoutY="478.0" maxHeight="38.0" maxWidth="299.0" minHeight="25.0" minWidth="130.0" mnemonicParsing="false" onAction="#goBack" prefHeight="38.0" prefWidth="299.0" text="Go back to town">
+         <font>
+            <Font name="Baskerville Old Face" size="23.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

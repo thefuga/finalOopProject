@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="266.0" prefWidth="482.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="trabalhoPoo.view.InventoryController">
+   <children>
+      <ListView fx:id="inventoryList" prefHeight="200.0" prefWidth="200.0" />
+      <Label fx:id="label1" layoutX="239.0" layoutY="87.0" text=" ">
+         <font>
+            <Font name="Baskerville Old Face" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="label2" layoutX="239.0" layoutY="107.0" text=" ">
+         <font>
+            <Font name="Baskerville Old Face" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="label4" layoutX="239.0" layoutY="143.0" text=" ">
+         <font>
+            <Font name="Baskerville Old Face" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="label5" layoutX="239.0" layoutY="161.0" text=" ">
+         <font>
+            <Font name="Baskerville Old Face" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="label3" layoutX="239.0" layoutY="125.0" text=" ">
+         <font>
+            <Font name="Baskerville Old Face" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="itemName" layoutX="238.0" layoutY="14.0">
+         <font>
+            <Font name="Old English Text MT" size="40.0" />
+         </font>
+      </Label>
+      <Button fx:id="itemButton" layoutX="64.0" layoutY="206.0" maxHeight="25.0" maxWidth="73.0" minHeight="25.0" minWidth="73.0" mnemonicParsing="false" onAction="#itemActionButton" prefHeight="25.0" prefWidth="73.0" text="Equip item">
+         <font>
+            <Font name="Baskerville Old Face" size="12.0" />
+         </font></Button>
+      <Label fx:id="goldLabel" layoutX="14.0" layoutY="244.0" text="Gold:">
+         <font>
+            <Font name="Baskerville Old Face" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

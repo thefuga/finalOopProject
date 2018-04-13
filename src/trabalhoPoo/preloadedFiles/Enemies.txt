@@ -1,0 +1,5 @@
+Training doll;1
+Normal pig;2
+Elder pig;3
+Pig chief;5
+Battle boar;5
